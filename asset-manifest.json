@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/formygf/static/css/main.6c4c0607.css",
+    "main.js": "/formygf/static/js/main.4dae02a9.js",
+    "static/js/453.1d005a08.chunk.js": "/formygf/static/js/453.1d005a08.chunk.js",
+    "index.html": "/formygf/index.html",
+    "main.6c4c0607.css.map": "/formygf/static/css/main.6c4c0607.css.map",
+    "main.4dae02a9.js.map": "/formygf/static/js/main.4dae02a9.js.map",
+    "453.1d005a08.chunk.js.map": "/formygf/static/js/453.1d005a08.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c4c0607.css",
+    "static/js/main.4dae02a9.js"
+  ]
+}
