@@ -1,0 +1,71 @@
+.envelope-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .envelope {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+    transition: transform 0.5s ease;
+  }
+  
+  .envelope-flap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #ddd;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    z-index: 2;
+  }
+  
+  .envelope.open .envelope-flap {
+    transform: translateY(-150px) rotateX(-180deg);
+  }
+  
+  .envelope-body {
+    margin-top: 25%;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .letter {
+    margin-top: 20px;
+    padding: 20px;
+    width: 500px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in;
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+    color: #333;
+    line-height: 1.4;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
